@@ -1,0 +1,7 @@
+CREATE DATABASE pari2;
+
+CREATE DATABASE pari3;
+
+mysql> CREATE USER 'fosstechnix'@'%' IDENTIFIED BY 'fosstechnix@123';
+mysql> GRANT ALL PRIVILEGES ON * . * TO 'fosstechnix'@'%';
+mysql> GRANT ALL PRIVILEGES ON *.* TO 'fosstechnix'@'%' WITH GRANT OPTION;
